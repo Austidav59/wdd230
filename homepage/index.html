@@ -6,9 +6,10 @@
     <meta name="description" content="Austin Davis - WDD 230 - Web Frontend Development - course assignement portal">
     <meta name="author" content="Austin Davis">
     <title>Austin Davis - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <img class="headshot" src="images/IMG_0527.jpeg">
         <h1>Austin Davis</h1>
     </header>
@@ -22,13 +23,12 @@
         </ul>
     </nav>
     <main>
-        <h2>WDD 230: Web Frontend Development</h2>
+        <h2 class="card-title">WDD 230: Web Frontend Development</h2>
         <section class="card">
-            <h3>Learning Activities</h3>
+            <h3 class="colored-heading">Learning Activities</h3>
             <ol>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="#">Holy Layout</a> | <a href="#">Js Pen</a></li>
+                <li><a href="#">Media Query</a> | <a href="#">Design Principles Document </a></li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -40,17 +40,18 @@
             </ol>
         </section>
         <section class="card">
-            <h3>Information</h3>
+            <h3 class="colored-heading">Information</h3>
             <h4>Location of weather</h4>
             <h4>Tempature</h4>
             <h4>visits</h4>
         </section>
-        <footer>
-            <p id="date">year date</p>
-            <p>Austin Davis</p>
-            <p>United States of America</p>
-        </footer>
     </main>
-    <footer></footer>
+    <footer>
+        <p id="date"></p>
+        <p>Austin Davis</p>
+        <p>United States of America</p>
+        <p id="lastmod"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
 </body>
 </html>
