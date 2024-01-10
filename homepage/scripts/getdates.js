@@ -1,4 +1,10 @@
 
+function year() {
+    const date = document.getElementById("date")
+
+    let currentYear = new Date().getFullYear()
+    date.innerText = `@${currentYear}`
+}
 
 function lastModifiedDate() {
     //  grab modidfied element
@@ -11,3 +17,4 @@ function lastModifiedDate() {
 }
 
 lastModifiedDate()
+year()
