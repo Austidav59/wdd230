@@ -3,6 +3,46 @@ body {
 }
 
 header {
-    display: flex;
+    color: white;
+    background-color: rgb(50, 50, 50);
     text-align: center;
+    padding: 1px;
+}
+
+main{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 50vw 50vw 50vw 50vw;
+    grid-template-rows: 650px 650px 650px 150px;
+}
+
+section {
+    background-color: rgb(220, 220, 220);
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0px;
+}
+
+.screenshot{
+    background-size: cover;
+    width: 85vw;
+    display: block;
+    margin: 25px auto;
+    
+}
+
+.header-colored {
+    background-color: rgb(30, 13, 92);
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+section p, section a {
+    margin-left: 8px;
 }
