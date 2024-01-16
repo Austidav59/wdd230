@@ -6,14 +6,14 @@ html, body{
     margin: 0px;
     justify-content: center;
     color: white;
-    background-color: whitesmoke;
+    background-color: #fefae0;
 }
 
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4a6741;
+    background-color: #606c38;
     padding: 20px 15px;
 }
 
@@ -27,7 +27,7 @@ html, body{
 nav{
     margin: 0px;
     padding: 10px 5px;
-    background-color: burlywood;
+    background-color: #bc6c25;
     text-align: center;
     color: #333333;
 }
@@ -61,7 +61,7 @@ nav{
 }
 
 .colored-heading{
-    background-color: burlywood;
+    background-color: #bc6c25;
     color: white;
     margin: 0px;
     border-radius: 2px;
